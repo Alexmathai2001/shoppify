@@ -2,6 +2,7 @@ import ColorSelector from "@/components/ColorSelector";
 import ImageSelector from "@/components/ImageSelector";
 import ImageViewer from "@/components/ImageViewer";
 import PrimaryDetails from "@/components/PrimaryDetails";
+import ProductDescription from "@/components/ProductDescription";
 import { Text, View, Image } from "react-native";
 import { GestureHandlerRootView, ScrollView } from "react-native-gesture-handler";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -16,6 +17,7 @@ export default function App() {
             <ImageSelector />
             <PrimaryDetails />
             <ColorSelector />
+            <ProductDescription />
           </View>
         </ScrollView>
       </GestureHandlerRootView>
