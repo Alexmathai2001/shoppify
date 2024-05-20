@@ -1,3 +1,4 @@
-import chair1 from '../assets/images/chair.png'
+import chair1 from '../assets/images/chair.png';
+import star from "../assets/images/star.png";
 
-export default (chair1)
+export { chair1, star };

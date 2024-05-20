@@ -1,6 +1,6 @@
 import { View, Text, Image } from 'react-native'
 import React from 'react'
-import chair1 from '@/constants/images'
+import {chair1} from '@/constants/images'
 
 const ImageViewer = () => {
   return (
