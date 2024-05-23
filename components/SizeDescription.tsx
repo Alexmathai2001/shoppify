@@ -23,7 +23,7 @@ const SizeDescription = () => {
         onPress={handlePress}
         className="flex-row justify-between items-center"
       >
-        <Text className="text-xl font-semibold">Size</Text>
+        <Text className="text-lg font-medium">Size</Text>
         <Image
           source={dropdown}
           className={`w-4 h-4 ${dropdownstate ? "rotate-180" : "rotate-0"}`}

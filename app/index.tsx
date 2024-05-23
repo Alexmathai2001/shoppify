@@ -1,4 +1,6 @@
 import ColorSelector from "@/components/ColorSelector";
+import Footer from "@/components/Footer";
+import FrequentlyBrought from "@/components/FrequentlyBrought";
 import ImageSelector from "@/components/ImageSelector";
 import ImageViewer from "@/components/ImageViewer";
 import PrimaryDetails from "@/components/PrimaryDetails";
@@ -20,8 +22,10 @@ export default function App() {
             <ColorSelector />
             <ProductDescription />
             <SizeDescription />
+            <FrequentlyBrought />
           </View>
         </ScrollView>
+        <Footer />
       </GestureHandlerRootView>
     </SafeAreaView>
   );

@@ -14,7 +14,7 @@ const ProductDescription = () => {
   return (
     <View className="p-4">
       <TouchableOpacity onPress={handlePress} className="flex-row justify-between items-center">
-        <Text className="text-xl font-semibold">Product Description</Text>
+        <Text className="text-lg font-medium">Product Description</Text>
         <Image source={dropdown} className={`w-4 h-4 ${dropdownstate ? 'rotate-180' : 'rotate-0'}`} />
         
       </TouchableOpacity>
