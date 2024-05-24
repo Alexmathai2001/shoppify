@@ -3,7 +3,7 @@
 This is an assignment for Appmaker.xyz as a part of their recruitment process.
 
 
-## Get started
+## how to build the project
 
 1. Install dependencies
 
