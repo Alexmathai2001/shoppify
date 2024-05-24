@@ -1,6 +1,6 @@
 import { View, Text, Image } from "react-native";
 import React from "react";
-import {chair1} from "@/constants/images";
+import {chair1 ,chair2 , chair4} from "@/constants/images";
 
 const ImageSelector = () => {
   return (
@@ -10,10 +10,10 @@ const ImageSelector = () => {
           <Image source={chair1} className="h-12 w-12" />
         </View>
         <View className=" border-2 rounded-xl border-black p-3">
-          <Image source={chair1} className="h-12 w-12" />
+          <Image source={chair2} className="h-12 w-12" />
         </View>
         <View className=" border-2 rounded-xl border-black p-3">
-          <Image source={chair1} className="h-12 w-12" />
+          <Image source={chair4} className="h-12 w-12" />
         </View>
       </View>
     </View>

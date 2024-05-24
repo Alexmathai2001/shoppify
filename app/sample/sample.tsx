@@ -3,7 +3,7 @@ import React from 'react'
 
 const index = () => {
   return (
-    <View>
+    <View className="px-5">
       <Text>index</Text>
     </View>
   )

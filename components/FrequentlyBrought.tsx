@@ -13,7 +13,7 @@ const FrequentlyBrought = () => {
         className="flex-row justify-between items-center"
       >
         <Text className="text-lg font-medium">Frequently brought</Text>
-        <Link href={'/sample/index'} className='text-green-700 font-semibold'>See More</Link>
+        <Link href={'/sample/sample'} className='text-green-700 font-semibold'>See More</Link>
       </TouchableOpacity>
       <View>
         <FlatList data={data} renderItem={({item}) => <SlideItem item={item}/>} horizontal pagingEnabled snapToAlignment='center'></FlatList>
