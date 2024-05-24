@@ -3,6 +3,7 @@ import React from 'react'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 import {data} from '../constants/chairsData'
 import SlideItem from './SlideItem'
+import { Link } from 'expo-router'
 
 const FrequentlyBrought = () => {
 
@@ -12,7 +13,7 @@ const FrequentlyBrought = () => {
         className="flex-row justify-between items-center"
       >
         <Text className="text-lg font-medium">Frequently brought</Text>
-        <Text className='text-green-700 font-semibold'>See More</Text>
+        <Link href={'/sample/index'} className='text-green-700 font-semibold'>See More</Link>
       </TouchableOpacity>
       <View>
         <FlatList data={data} renderItem={({item}) => <SlideItem item={item}/>} horizontal pagingEnabled snapToAlignment='center'></FlatList>
